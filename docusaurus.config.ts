@@ -12,7 +12,7 @@ const config: Config = {
   title: 'QianCset Docs', //网站标题
   tagline: 'QianCset Web3 Dapp', //网站标语,页面元数据
 
-  organizationName: 'qiancset',//拥有部署仓库的 GitHub 用户或组织。
+  organizationName: 'qinjiangban',//拥有部署仓库的 GitHub 用户或组织。
   projectName: 'QianCset-Docs',//部署仓库的名字。
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
