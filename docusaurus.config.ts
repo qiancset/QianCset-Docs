@@ -5,13 +5,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   url: 'https://docs.qiancset.com',//网站网址域名,顶级主机名。
-  baseUrl: '/QianCset-Docs/',
+  baseUrl: '/',
+  trailingSlash: false,
+
   favicon: 'img/Q.ico',//网站图标
   title: 'QianCset Docs', //网站标题
   tagline: 'QianCset Web3 Dapp', //网站标语,页面元数据
 
-  organizationName: 'qinjiangban',//拥有部署仓库的 GitHub 用户或组织。
+  organizationName: 'qiancset',//拥有部署仓库的 GitHub 用户或组织。
   projectName: 'QianCset-Docs',//部署仓库的名字。
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -20,7 +23,7 @@ const config: Config = {
   //例如，如果您的网站是中文的，则您可能想用“zh-Hans”替换“en”。
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['ar', 'en', 'en-US', 'fa', 'fr', 'ja', 'ko', 'pt', 'zh-Hant', 'zh-Hans',],
+    locales: ['ar','en', /* 'en-US',  */'es', 'fr', 'hi',/* 'ja', 'ko','zh-Hant', */ 'pt','zh-Hans',],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
@@ -28,9 +31,9 @@ const config: Config = {
       zh: {
         htmlLang: 'zh-CN',
       },
-      fa: {
+/*       fa: {
         direction: 'rtl',//表示使用从右向左的文本方向
-      },
+      }, */
     },
   },
 
@@ -59,7 +62,7 @@ const config: Config = {
     announcementBar: {
       id: "announcement_bar",
       content:
-        '📣  <a href="https://docs.linea.build//build-on-linea/goerli-to-sepolia">前往官网</a> ',
+        '📣  <a href="https://qiancset.com">前往官网</a> ',
       backgroundColor: "#FFFFFF",
       textColor: "#ea7411",
       isCloseable: false,
