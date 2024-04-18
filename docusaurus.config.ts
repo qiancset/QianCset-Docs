@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   url: 'https://docs.qiancset.com',//网站网址域名,顶级主机名。
-  baseUrl: '/',
+  baseUrl: '/QianCset-Docs/',
   favicon: 'img/Q.ico',//网站图标
   title: 'QianCset Docs', //网站标题
   tagline: 'QianCset Web3 Dapp', //网站标语,页面元数据
