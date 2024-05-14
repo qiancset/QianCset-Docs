@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 
 const config: Config = {
-  url: 'https://qiancset.github.io',//网站网址域名,顶级主机名。
-  baseUrl: '/QianCset-Docs/',
+  url: 'https://docs.qiancset.com',//网站网址域名,顶级主机名。
+  baseUrl: '/',
   trailingSlash: false,
 
   favicon: 'img/Q.ico',//网站图标
